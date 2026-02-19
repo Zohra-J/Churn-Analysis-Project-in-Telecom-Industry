@@ -196,7 +196,7 @@ Explanation:
     This visualization sets the context for deeper churn analysis.
 
     (b) Contract Type vs Customer Churn
-           ![Contract Type vs Churn](dashboard_screenshots/contract_vs_churn.png)
+           ![Contract Type vs Churn](dashboard_screenshots/churn_vs_contractType.png)
 
 Explanation:
     This visualization highlights how churn varies across different contract types.
@@ -205,7 +205,7 @@ Explanation:
     This insight suggests that contract duration plays a major role in churn behavior.
 
   (c)  Customer Tenure vs Churn
-       ![Tenure vs Churn](dashboard_screenshots/tenure_group_vs_churn.png)
+       ![Tenure vs Churn](dashboard_screenshots/churn_vs_Tenure.png)
 
 Explanation:
     This chart analyzes churn behavior across different customer tenure groups.
@@ -214,7 +214,7 @@ Explanation:
     This insight emphasizes the importance of early customer engagement and onboarding.
 
  (d)  Average Monthly Charges by Churn Status
-      ![Monthly Charges vs Churn](dashboard_screenshots/avg_charges_vs_churn.png)
+      ![Monthly Charges vs Churn](dashboard_screenshots/AvgMonthlyCharges.png)
 
 Explanation:
     This visualization compares average monthly charges between churned and retained customers.
@@ -222,30 +222,39 @@ Explanation:
     Pricing sensitivity appears to be an important factor influencing churn.
     This insight can support pricing strategy reviews and targeted discount offers.
 
- (e) Tech Support Usage vs Customer Churn
-     ![Tech Support vs Churn](dashboard_screenshots/service_usage_vs_churn.png)
+ (e) Service Behaviour Analysis (service_behaviour)
+    This section analyses how customer service usage patterns influence churn behaviour. Two major service-related factors were evaluated:
+     i Tech Support Usage vs Customer Churn
+     ii Internet Service Type vs Customer Churn
 
-Explanation:
-   This chart examines the relationship between tech support usage and churn.
-   Customers who do not use tech support services show higher churn rates.
-   Engagement with support services is associated with improved retention.
-   This suggests that value-added services help reduce churn risk.
+        i- Tech Support Usage vs Customer Churn
+           ![Tech Support vs Churn](dashboard_screenshots/service_behaviour.png)
+           This chart examines the relationship between tech support usage and churn.
+           Customers who do not use tech support services show higher churn rates.
+           Engagement with support services is associated with improved retention.
+           The analysis reveals a clear relationship between tech support engagement and churn.
+           Customers who subscribed to Tech Support services churned at a noticeably lower rate.
+           Customers with no internet service had the lowest churn impact overall.
+           This suggests that value-added services help reduce churn risk.
+Insight:
+Access to technical support appears to increase customer satisfaction and retention. Customers who lack support services may experience unresolved issues, leading to higher churn probability.
 
-(f)  Internet Service Type vs Customer Churn
-     ![Internet Service vs Churn](dashboard_screenshots/internet_service_vs_churn.png)
+        ii- Internet Service Type vs Customer Churn   
+            ![Tech Support vs Churn](dashboard_screenshots/service_behaviour.png)
+            Customer churn also varies by internet service type:
+            Fiber optic customers show the highest churn count.
+            DSL customers demonstrate comparatively lower churn.
+            Customers with no internet service have the lowest churn impact.
 
-Explanation:
-    This visualization shows churn patterns across different internet service types.
-    Fiber optic customers tend to churn more than DSL or non-internet users.
-    This may reflect higher pricing expectations or competitive alternatives.
-    Understanding service-specific churn helps improve targeted retention strategies.
+Insight:
+Although fiber optic provides premium service, it may come with higher pricing or expectations. If service quality or value perception does not match expectations, churn risk increases.Tech Support Usage vs Customer Churn
 
 ✅ Summary of Dashboard Insights
     Contract type, tenure, pricing, and service engagement are key churn drivers.
     Early-stage customers and month-to-month subscribers require priority retention.
     Value-added services and pricing optimization can help reduce churn.
     
-Step 6 — Postdictive Analysis
+Step 7 — Postdictive Analysis
 Postdictive analysis was conducted to evaluate how well the churn prediction model performed by comparing predicted churn outcomes with actual customer churn behaviour. This step helps assess model reliability and identify areas for improvement.
 
  Predicted vs Actual Churn Comparison
@@ -279,7 +288,7 @@ The evaluation suggests:
     Combining predictive modelling with business insights strengthens retention strategies.
 
 
-Step 7 — Business Recommendations
+Step 8 — Business Recommendations
 Based on exploratory analysis, feature engineering, and churn prediction modelling, several actionable business recommendations were identified to help reduce customer churn and improve retention.
 	Prioritise Month-to-Month Customers
 Highest churn risk segment.
