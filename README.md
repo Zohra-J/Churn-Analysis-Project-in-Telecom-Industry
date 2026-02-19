@@ -187,16 +187,20 @@ The modelling results indicated:
 Step 6- 📊 Power BI Dashboard Visualizations
     This section presents key visual insights derived from the cleaned telecom churn dataset using Power BI.
     Each visualization focuses on a specific business question related to customer churn.
-    (a) Overall Customer Churn Distribution
-      ![Customer Churn Distribution](dashboard_screenshots/Customer_churn_Distribution.png)     
+    (a) Churn Overview Dashboard
+        ![Churn Overview](dashboard_screenshots/Churn_Overview.png)
+        Explanation:
+        This dashboard provides a quick overview of customer churn patterns across key factors. About 26% of customers have churned,              indicating a notable retention challenge. Higher monthly charges appear linked with increased churn, while customers on month-to-          month contracts show significantly higher churn compared to long-term contracts. Additionally, customers with shorter tenure are          more likely to leave, highlighting the importance of early customer engagement.
+    (b) Overall Customer Churn Distribution
+      ![Customer Churn Distribution](dashboard_screenshots/Customer_Churn_Distribution.png)     
 Explanation:
     This chart shows the overall distribution of customers who churned versus those who were retained.
     It provides a high-level view of customer retention health.
     The churn percentage serves as a key performance indicator (KPI) for the business
     This visualization sets the context for deeper churn analysis.
 
-    (b) Contract Type vs Customer Churn
- ![Contract Type vs Churn](dashboard_screenshots/churn_vs_contractType.png) 
+    (c) Contract Type vs Customer Churn
+ ![Contract Type vs Churn](dashboard_screenshots/churn_vs_ContractType.png) 
 
 Explanation:
     This visualization highlights how churn varies across different contract types.
@@ -204,7 +208,7 @@ Explanation:
     Long-term contracts (one-year, two-year) show better customer retention.
     This insight suggests that contract duration plays a major role in churn behavior.
 
-  (c)  Customer Tenure vs Churn
+  (d) Customer Tenure vs Churn
        ![Tenure vs Churn](dashboard_screenshots/churn_vs_Tenure.png)
 
 Explanation:
@@ -213,7 +217,7 @@ Explanation:
     Long-term customers demonstrate higher loyalty and lower churn rates.
     This insight emphasizes the importance of early customer engagement and onboarding.
 
- (d)  Average Monthly Charges by Churn Status
+ (e)  Average Monthly Charges by Churn Status
      ![Avg Monthly Charges](dashboard_screenshots/churn_vs_AvgMonthlyCharges.png) 
 Explanation:
     This visualization compares average monthly charges between churned and retained customers.
@@ -221,7 +225,7 @@ Explanation:
     Pricing sensitivity appears to be an important factor influencing churn.
     This insight can support pricing strategy reviews and targeted discount offers.
 
- (e) Service Behaviour Analysis (service_behaviour)
+ (f) Service Behaviour Analysis (service_behaviour)
     This section analyses how customer service usage patterns influence churn behaviour. Two major service-related factors were evaluated:
      i Tech Support Usage vs Customer Churn
      ii Internet Service Type vs Customer Churn
