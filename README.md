@@ -187,8 +187,8 @@ The modelling results indicated:
 Step 6- 📊 Power BI Dashboard Visualizations
     This section presents key visual insights derived from the cleaned telecom churn dataset using Power BI.
     Each visualization focuses on a specific business question related to customer churn.
-    (A) Overall Customer Churn Distribution
-      ![Customer Churn Overview](dashboard_screenshots/churn_overview.png)     
+    (a) Overall Customer Churn Distribution
+      ![Customer Churn Distribution](dashboard_screenshots/Customer_churn_Distribution.png)     
 Explanation:
     This chart shows the overall distribution of customers who churned versus those who were retained.
     It provides a high-level view of customer retention health.
@@ -196,7 +196,7 @@ Explanation:
     This visualization sets the context for deeper churn analysis.
 
     (b) Contract Type vs Customer Churn
-           ![Contract Type vs Churn](dashboard_screenshots/churn_vs_contractType.png)
+ ![Contract Type vs Churn](dashboard_screenshots/churn_vs_contractType.png) 
 
 Explanation:
     This visualization highlights how churn varies across different contract types.
@@ -214,8 +214,7 @@ Explanation:
     This insight emphasizes the importance of early customer engagement and onboarding.
 
  (d)  Average Monthly Charges by Churn Status
-      ![Monthly Charges vs Churn](dashboard_screenshots/AvgMonthlyCharges.png)
-
+     ![Avg Monthly Charges](dashboard_screenshots/churn_vs_AvgMonthlyCharges.png) 
 Explanation:
     This visualization compares average monthly charges between churned and retained customers.
     Customers with higher monthly charges tend to churn more frequently.
@@ -228,7 +227,7 @@ Explanation:
      ii Internet Service Type vs Customer Churn
 
         i- Tech Support Usage vs Customer Churn
-           ![Tech Support vs Churn](dashboard_screenshots/service_behaviour.png)
+  ![Tech Support vs Churn](dashboard_screenshots/service_behaviour.png)
            This chart examines the relationship between tech support usage and churn.
            Customers who do not use tech support services show higher churn rates.
            Engagement with support services is associated with improved retention.
@@ -240,7 +239,7 @@ Insight:
 Access to technical support appears to increase customer satisfaction and retention. Customers who lack support services may experience unresolved issues, leading to higher churn probability.
 
         ii- Internet Service Type vs Customer Churn   
-            ![Tech Support vs Churn](dashboard_screenshots/service_behaviour.png)
+  ![Tech Support vs Churn](dashboard_screenshots/service_behaviour.png)
             Customer churn also varies by internet service type:
             Fiber optic customers show the highest churn count.
             DSL customers demonstrate comparatively lower churn.
