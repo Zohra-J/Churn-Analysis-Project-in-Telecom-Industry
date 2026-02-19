@@ -153,7 +153,7 @@ Outcome of Feature Engineering
    Support more effective retention strategies.
 These engineered features enhance the analytical depth of churn analysis and prepare the dataset for predictive modelling or advanced business insights.
 
-Step 5 — Churn Modelling With R 
+Step 5- Churn Modelling With R 
 The cleaned dataset prepared in MySQL was exported as a CSV file and imported into R for predictive churn modelling. Initial checks were performed to validate data structure, variable types, and target variable consistency before model training.
 A logistic regression model was built in R to predict customer churn using tenure, monthly charges, total charges, and contract type. The model provided interpretable insights into key churn drivers and enabled probability-based churn prediction.
 Model Development
@@ -257,7 +257,7 @@ Although fiber optic provides premium service, it may come with higher pricing o
     Early-stage customers and month-to-month subscribers require priority retention.
     Value-added services and pricing optimization can help reduce churn.
     
-Step 7 — Postdictive Analysis
+Step 7-  Postdictive Analysis
 Postdictive analysis was conducted to evaluate how well the churn prediction model performed by comparing predicted churn outcomes with actual customer churn behaviour. This step helps assess model reliability and identify areas for improvement.
 
  Predicted vs Actual Churn Comparison
@@ -291,7 +291,7 @@ The evaluation suggests:
     Combining predictive modelling with business insights strengthens retention strategies.
 
 
-Step 8 — Business Recommendations
+Step 8- Business Recommendations
 Based on exploratory analysis, feature engineering, and churn prediction modelling, several actionable business recommendations were identified to help reduce customer churn and improve retention.
 	Prioritise Month-to-Month Customers
 Highest churn risk segment.
