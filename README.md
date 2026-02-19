@@ -188,7 +188,7 @@ Step 6- 📊 Power BI Dashboard Visualizations
     This section presents key visual insights derived from the cleaned telecom churn dataset using Power BI.
     Each visualization focuses on a specific business question related to customer churn.
     (a) Churn Overview Dashboard
-        ![Churn Overview](dashboard_screenshots/Churn_Overview.png)
+        ![Churn Overview](dashboard_screenshots/churn_overview.png)
         Explanation:
         This dashboard provides a quick overview of customer churn patterns across key factors. About 26% of customers have churned,              indicating a notable retention challenge. Higher monthly charges appear linked with increased churn, while customers on month-to-          month contracts show significantly higher churn compared to long-term contracts. Additionally, customers with shorter tenure are          more likely to leave, highlighting the importance of early customer engagement.
     (b) Overall Customer Churn Distribution
