@@ -184,6 +184,66 @@ The modelling results indicated:
     Higher monthly charges contributed to increased churn risk.
     Contract commitment and service engagement played important roles in retention.
     
+Step 6- 📊 Power BI Dashboard Visualizations
+    This section presents key visual insights derived from the cleaned telecom churn dataset using Power BI.
+    Each visualization focuses on a specific business question related to customer churn.
+    (A) Overall Customer Churn Distribution
+      ![Customer Churn Overview](dashboard_screenshots/churn_overview.png)     
+Explanation:
+    This chart shows the overall distribution of customers who churned versus those who were retained.
+    It provides a high-level view of customer retention health.
+    The churn percentage serves as a key performance indicator (KPI) for the business
+    This visualization sets the context for deeper churn analysis.
+
+    (b) Contract Type vs Customer Churn
+           ![Contract Type vs Churn](dashboard_screenshots/contract_vs_churn.png)
+
+Explanation:
+    This visualization highlights how churn varies across different contract types.
+    Customers on month-to-month contracts exhibit significantly higher churn.
+    Long-term contracts (one-year, two-year) show better customer retention.
+    This insight suggests that contract duration plays a major role in churn behavior.
+
+  (c)  Customer Tenure vs Churn
+       ![Tenure vs Churn](dashboard_screenshots/tenure_group_vs_churn.png)
+
+Explanation:
+    This chart analyzes churn behavior across different customer tenure groups.
+    Customers with shorter tenure are more likely to churn.
+    Long-term customers demonstrate higher loyalty and lower churn rates.
+    This insight emphasizes the importance of early customer engagement and onboarding.
+
+ (d)  Average Monthly Charges by Churn Status
+      ![Monthly Charges vs Churn](dashboard_screenshots/avg_charges_vs_churn.png)
+
+Explanation:
+    This visualization compares average monthly charges between churned and retained customers.
+    Customers with higher monthly charges tend to churn more frequently.
+    Pricing sensitivity appears to be an important factor influencing churn.
+    This insight can support pricing strategy reviews and targeted discount offers.
+
+ (e) Tech Support Usage vs Customer Churn
+     ![Tech Support vs Churn](dashboard_screenshots/service_usage_vs_churn.png)
+
+Explanation:
+   This chart examines the relationship between tech support usage and churn.
+   Customers who do not use tech support services show higher churn rates.
+   Engagement with support services is associated with improved retention.
+   This suggests that value-added services help reduce churn risk.
+
+(f)  Internet Service Type vs Customer Churn
+     ![Internet Service vs Churn](dashboard_screenshots/internet_service_vs_churn.png)
+
+Explanation:
+    This visualization shows churn patterns across different internet service types.
+    Fiber optic customers tend to churn more than DSL or non-internet users.
+    This may reflect higher pricing expectations or competitive alternatives.
+    Understanding service-specific churn helps improve targeted retention strategies.
+
+✅ Summary of Dashboard Insights
+    Contract type, tenure, pricing, and service engagement are key churn drivers.
+    Early-stage customers and month-to-month subscribers require priority retention.
+    Value-added services and pricing optimization can help reduce churn.
     
 Step 6 — Postdictive Analysis
 Postdictive analysis was conducted to evaluate how well the churn prediction model performed by comparing predicted churn outcomes with actual customer churn behaviour. This step helps assess model reliability and identify areas for improvement.
